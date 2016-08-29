@@ -1,0 +1,44 @@
+p{
+    font-size: 20.5em;
+    font-size: 20.4vw;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #242729;
+}
+
+button{
+    width: 250px;
+    height: 60px;
+    font-weight: bolder;
+    border: none;
+    background-color: #2d2e2f;
+    font-size: 1.3em;
+    color: #fff;
+}
+
+button:hover{
+    color: turquoise;
+}
+
+button:disabled{
+    color: orangered;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+}
+
+@media (max-width: 480px){
+    p{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
